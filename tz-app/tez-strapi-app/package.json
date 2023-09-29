@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "develop:strapi": "yarn --cwd strapi develop",
-    "develop:tez": "wait-on http://localhost:1337/admin && yarn --cwd tez dev",
+    "develop:tez": "wait-on http://localhost:3000/admin && yarn --cwd tez dev",
     "develop": "cross-env FORCE_COLOR=1 npm-run-all -l -p develop:*"
   },
   "devDependencies": {
